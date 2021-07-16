@@ -1,0 +1,14 @@
+ .colorful-3 {
+  border-bottom: 3px solid rgb(0, 237, 162);
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 4px),50% calc(100% - 4px),50% 100%,50% 100%,50% calc(100% - 4px),0 calc(100% - 4px));
+  background:
+    linear-gradient(lightblue 0 0) center/0% 100% no-repeat
+    #000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: 0.5s;
+}
+.colorful-3:hover {
+    background-size: 100% 100%;
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 4px),100% calc(100% - 4px),100% 100%,0% 100%,0% calc(100% - 4px),0 calc(100% - 4px));
+ }
