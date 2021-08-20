@@ -9,7 +9,6 @@ const ToggleButton = ({ width, handleToggleButton, toggle }) => {
 					type="button"
 					onClick={handleToggleButton}
 					style={{ color: "#64ffda", fontSize: "40px" }}
-					// "toggle-rotate" permet la rotation du toggle boutton lors d'un click sur Smartphone
 					className={
 						toggle
 							? "transform transition duration-200 -rotate-90 "
