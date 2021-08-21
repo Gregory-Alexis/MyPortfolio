@@ -8,7 +8,7 @@ const ToggleButton = ({ width, handleToggleButton, toggle }) => {
 				<button
 					type="button"
 					onClick={handleToggleButton}
-					style={{ color: "#64ffda", fontSize: "40px" }}
+					style={{ color: "#00e1ff", fontSize: "40px" }}
 					className={
 						toggle
 							? "transform transition duration-200 -rotate-90 "

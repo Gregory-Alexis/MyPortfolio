@@ -28,9 +28,10 @@ function App() {
 			window.removeEventListener("resize", changeWidth)
 		}
 	}, [])
+
 	return (
-		<section style={{ backgroundColor: "#0a192f" }}>
-			<div className="fixed z-30 w-full backdrop-filter backdrop-blur-lg">
+		<section>
+			<div className="fixed z-30 w-full backdrop-filter backdrop-blur">
 				<Header
 					handleToggleButton={handleToggleButton}
 					width={width}

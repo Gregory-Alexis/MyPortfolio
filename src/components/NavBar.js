@@ -10,7 +10,7 @@ const NavBar = () => {
 				</div>
 				<div style={{ borderBottomColor: "#00E4FA" }}>
 					<li className="size-link-nav colorful-3">
-						<span style={{ color: "#ccd6f6" }}>Mes infos</span>
+						<span style={{ color: "#ccd6f6" }}>À propos de moi</span>
 					</li>
 				</div>
 				<div style={{ borderBottomColor: "#00E4FA" }}>

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .contact-button {
-	@apply flex justify-start mt-5 text-sm rounded-full transition duration-500 ease-out border-2 p-3 md:text-base hover:bg-blue-900 hover:bg-opacity-25 md:rounded-lg transform hover:scale-110;
+	@apply flex justify-start mt-5 text-sm rounded-full transition duration-500 ease-out border-2 p-3 md:text-base hover:bg-white hover:bg-opacity-5 md:rounded-lg transform hover:scale-110;
 }
 
-.green-bg-link {
-	@apply text-center m-2 rounded-lg transition duration-300 ease-in-out md:border-0  hover:bg-lightgreen hover:text-nightblue;
+.blue-bg-link {
+	@apply text-center m-2 rounded-lg transition duration-300 ease-in-out md:border-0  hover:bg-lightblue hover:text-purplerain;
 }
 
 .size-link-nav {
@@ -19,5 +19,5 @@
 }
 
 .acceuil {
-	@apply mx-6 flex items-center justify-center flex-col min-h-screen;
+	@apply mx-6 flex items-center justify-center min-h-screen;
 }

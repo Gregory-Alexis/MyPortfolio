@@ -5,21 +5,21 @@ import Gitlogo from "../../assets/github.png"
 const Intro = () => {
 	return (
 		// "acceuil" style de la page d'acceuil + filtre blur en arrière plan lors d'un clique sur le toggle boutton sur Smartphone
-		<main className= "acceuil ">
-			{/* "animate-fade-in-down" style permettant le fade-in de la page d'acceuil lorsque celle-ci est chargé
+		<main className="acceuil ">
+			{/* "data-aos" est un plugin permettant certaines animation type fade, zoom (https://michalsnik.github.io/aos/)
 			 */}
-			<div className="animate-fade-in-down">
+			<div data-aos="zoom-out">
 				<h1
-					className="mb-3 ml-1 md:text-base lg:text-lg xl:text-xl"
+					className="mb-3 md:text-base lg:text-lg xl:text-xl"
 					style={{
 						fontFamily: "Inter",
-						color: "#64ffda",
+						color: "#00e1ff",
 					}}
 				>
 					Bonjour, je m'appelle
 				</h1>
 				<div
-					className=" text-3xl font-bold mb-3  md:text-5xl lg:text-6xl xl:text-7xl"
+					className=" text-3xl font-bold mb-3 md:text-5xl lg:text-6xl xl:text-7xl"
 					style={{ fontFamily: "Poppins", color: "#ccd6f6" }}
 				>
 					<p>Grégory Alexis.</p>
@@ -76,13 +76,13 @@ const Intro = () => {
 						type="button"
 						// "contact-button" style 'effet de zoom' du boutton 'Contactez Moi'  sur la page d'acceuil lors d'un hover (voir fichier index.css)
 						className="contact-button"
-						style={{ color: "00E4FA", borderColor: "#64ffda" }}
+						style={{ borderColor: "#00e1ff" }}
 					>
 						<a
 							href="mailto:gregoryalexiss@gmail.com"
-							className="no-underline font-bold lg:p-1"
+							className="no-underline lg:p-1"
 							style={{
-								color: "#64ffda",
+								color: "#00e1ff",
 								letterSpacing: "2px",
 								fontFamily: "Inter",
 							}}
@@ -91,6 +91,21 @@ const Intro = () => {
 						</a>
 					</button>
 				</div>
+			</div>
+			<div className="absolute bottom-0 animate-bounce text-lightblue">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="32"
+					height="32"
+					fill="currentColor"
+					className="bi bi-arrow-down"
+					viewBox="0 0 16 16"
+				>
+					<path
+						fillRule="evenodd"
+						d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+					/>
+				</svg>
 			</div>
 		</main>
 	)
