@@ -1,7 +1,3 @@
-import React from "react"
-import JSlogo from "../assets/javascript.png"
-import Reactlogo from "../assets/react.png"
-
 const Footer = () => {
 	return (
 		<footer
