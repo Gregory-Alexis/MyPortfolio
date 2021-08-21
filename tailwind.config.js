@@ -3,6 +3,10 @@ module.exports = {
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
+			borderColor: (theme) => ({
+				purplerain: "#1e0045",
+				lightblue: "#00e1ff",
+			}),
 			boxShadow: {
 				white: "0 2px 5px 2px rgba(255, 255, 255)",
 			},
