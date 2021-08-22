@@ -3,18 +3,18 @@ import ReactIllu from "../../assets/react.svg"
 const Infos = () => {
 	return (
 		<article
-			className="font-bold min-h-screen p-8 lg:grid lg:grid-cols-2 lg:p-32"
+			className="font-bold min-h-screen p-8 lg:p-24 lg:grid lg:grid-cols-2 "
 			style={{
 				fontFamily: "Fira code",
 			}}
 		>
 			<div
-				className="text-sm md:text-base lg:text-lg"
+				className="text-sm mb-8 md:text-base lg:text-xl "
 				data-aos="flip-right"
 				style={{ color: "#8892b0" }}
 			>
 				<h2
-					className="text-center text-xl border-b-2 p-5 text-lightblue md:text-2xl lg:text-2xl xl:text-3xl"
+					className="text-center text-xl border-b-2 p-5 text-lightblue md:text-2xl xl:text-3xl"
 					style={{
 						fontFamily: "Inter",
 					}}
@@ -82,7 +82,7 @@ const Infos = () => {
 					lancer pleinement dans une carrière de développeur front-end React.
 				</p>
 			</div>
-			<div data-aos="flip-down" className="pt-8  m-auto md:w-3/4 md:h-3/4   ">
+			<div data-aos="flip-down" className=" md:w-3/4 md:h-3/4 m-auto">
 				<img src={ReactIllu} alt="logo react" width="900" height="900" />
 			</div>
 		</article>

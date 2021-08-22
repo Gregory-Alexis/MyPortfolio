@@ -9,7 +9,7 @@ const Projets = () => {
 				color: "#8892b0",
 			}}
 		>
-			<div className="text-sm md:text-base lg:text-lg p-24">
+			<div className="text-sm md:text-base lg:text-lg ">
 				<h2
 					className="text-center text-xl border-b-2 p-5 text-lightblue md:text-2xl lg:text-2xl xl:text-3xl"
 					style={{
