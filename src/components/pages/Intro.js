@@ -47,7 +47,7 @@ const Intro = () => {
 							<img
 								src={Instalogo}
 								alt="instagram "
-								className="w-9 h-9 md:w-auto hover:relative bottom-2"
+								className="w-9 h-9 md:w-12 md:h-12 hover:relative bottom-2"
 							/>
 						</a>
 					</nav>
@@ -56,7 +56,7 @@ const Intro = () => {
 							<img
 								src={Linkelogo}
 								alt="linkedin"
-								className="ml-4 w-9 h-9 md:w-auto hover:relative bottom-2"
+								className="ml-4 w-9 h-9 md:w-12 md:h-12 hover:relative bottom-2"
 							/>
 						</a>
 					</nav>
@@ -65,7 +65,7 @@ const Intro = () => {
 							<img
 								src={Gitlogo}
 								alt="github"
-								className="ml-4 w-9 h-9 bottom-2 hover:relative  md:w-auto"
+								className="ml-4 w-9 h-9 md:w-12 md:h-12 bottom-2 hover:relative  "
 							/>
 						</a>
 					</nav>

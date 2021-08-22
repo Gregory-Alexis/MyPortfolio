@@ -3,14 +3,14 @@ import ReactIllu from "../../assets/react.svg"
 const Infos = () => {
 	return (
 		<article
-			className="font-bold min-h-screen p-8 lg:grid lg:grid-cols-2 lg:p-32 "
+			className="font-bold min-h-screen p-8 lg:grid lg:grid-cols-2 lg:p-32"
 			style={{
 				fontFamily: "Fira code",
 			}}
 		>
-			<div className=" text-sm md:text-base xl:text-2xl " data-aos="flip-right">
+			<div className="text-sm md:text-base xl:text-2xl" data-aos="flip-right">
 				<h1
-					className="text-center text-lg border-b-2  p-5 md:text-2xl lg:text-2xl xl:text-4xl"
+					className="text-center text-lg border-b-2 p-5 md:text-2xl lg:text-2xl xl:text-4xl"
 					style={{
 						fontFamily: "Inter",
 					}}
