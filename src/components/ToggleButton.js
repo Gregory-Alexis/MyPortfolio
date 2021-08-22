@@ -7,6 +7,7 @@ const ToggleButton = ({ width, handleToggleButton, toggle }) => {
 			{width < 768 && (
 				<button
 					type="button"
+					aria-label="menu boutton"
 					onClick={handleToggleButton}
 					style={{ color: "#00e1ff", fontSize: "40px" }}
 					className={
