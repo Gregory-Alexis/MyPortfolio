@@ -65,7 +65,8 @@ const Infos = () => {
 					c'est ainsi, qu'à démarré mon aventure au sein de la formation{" "}
 					<a
 						href="https://alyra.fr/"
-						className="text-blue-800 underline hover:text-blue-300"
+						className=" underline hover:text-blue-300"
+						style={{ color: "#001dbf" }}
 					>
 						Alyra
 					</a>
