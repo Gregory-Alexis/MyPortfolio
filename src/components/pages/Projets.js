@@ -10,14 +10,14 @@ const Projets = () => {
 			}}
 		>
 			<div className="justify-center flex flex-col text-sm md:text-base pb-24">
-				<h1
+				<h2
 					className="text-center text-lg border-b-2 border-lightgreen text-lightgreen md:text-2xl"
 					style={{
 						fontFamily: "Inter",
 					}}
 				>
 					Mes Projets
-				</h1>
+				</h2>
 				<br />
 				<p className="text-center">COMING SOON</p>
 			</div>

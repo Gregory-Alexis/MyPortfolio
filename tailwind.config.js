@@ -18,6 +18,8 @@ module.exports = {
 			textColor: {
 				lightblue: "#00e1ff",
 				purplerain: "#1e0045",
+				red: "#ff0000",
+				blue: "#001dbf",
 			},
 			keyframes: {
 				"right-to-left": {

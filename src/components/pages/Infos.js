@@ -9,14 +9,14 @@ const Infos = () => {
 			}}
 		>
 			<div className="text-sm md:text-base xl:text-2xl" data-aos="flip-right">
-				<h1
+				<h2
 					className="text-center text-lg border-b-2 p-5 md:text-2xl lg:text-2xl xl:text-4xl"
 					style={{
 						fontFamily: "Inter",
 					}}
 				>
 					À propos de moi
-				</h1>
+				</h2>
 
 				<br />
 
@@ -31,33 +31,30 @@ const Infos = () => {
 				<p>
 					C'est au début de l'année 2020 que j'ai découvert le développement web
 					et j'ai donc décidé commencé cette aventure en apprenant les bases (
-					<span style={{ color: "#ff8000" }}>HTML</span>,
-					<span style={{ color: "#001dbf" }}> CSS</span> et{" "}
-					<span style={{ color: "#ffff00" }}>Javascript</span>) via différentes
-					plateformes comme (
+					<span>HTML</span>,<span> CSS</span> et <span>Javascript</span>) via
+					différentes plateformes comme (
 					<a
 						href="https://www.codecademy.com/"
-						className="text-purplerain underline hover:text-blue-300"
+						className="text-purplerain  underline hover:text-red"
 					>
 						Codecademy
 					</a>
 					,{" "}
 					<a
 						href="https://openclassrooms.com/fr/"
-						className="text-purplerain underline hover:text-blue-300"
+						className="text-purplerain  underline hover:text-red"
 					>
 						OpenClassRoom
 					</a>
 					,{" "}
 					<a
 						href="https://www.freecodecamp.org/"
-						className="text-purplerain underline hover:text-blue-300"
+						className="text-purplerain  underline hover:text-red"
 					>
 						FreeCodeCamp
 					</a>
 					...).
 				</p>
-
 				<br />
 				<p>
 					Après plusieurs mois, je me suis senti prêt pour intégrer une
@@ -65,8 +62,7 @@ const Infos = () => {
 					c'est ainsi, qu'à démarré mon aventure au sein de la formation{" "}
 					<a
 						href="https://alyra.fr/"
-						className=" underline hover:text-blue-300"
-						style={{ color: "#001dbf" }}
+						className=" underline text-purplerain hover:text-red"
 					>
 						Alyra
 					</a>

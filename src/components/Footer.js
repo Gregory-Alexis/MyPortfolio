@@ -5,10 +5,10 @@ const Footer = () => {
 			style={{ backgroundColor: "#8892b0" }}
 		>
 			<div className=" shadow-white p-3 rounded-lg inline-block mb-5">
-				<h4>
+				<p>
 					Ceci est la version 1.0 du site et il est toujours en cours de
 					développement.
-				</h4>
+				</p>
 				<br />
 				<p>
 					Vous pouvez consulter le code source{" "}
