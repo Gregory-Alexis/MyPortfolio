@@ -9,9 +9,9 @@ const Projets = () => {
 				color: "#8892b0",
 			}}
 		>
-			<div className="justify-center flex flex-col text-sm md:text-base pb-24">
+			<div className="text-sm md:text-base lg:text-lg p-24">
 				<h2
-					className="text-center text-lg border-b-2 border-lightgreen text-lightgreen md:text-2xl"
+					className="text-center text-xl border-b-2 p-5 text-lightblue md:text-2xl lg:text-2xl xl:text-3xl"
 					style={{
 						fontFamily: "Inter",
 					}}

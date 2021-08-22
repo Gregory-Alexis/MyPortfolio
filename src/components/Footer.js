@@ -1,8 +1,8 @@
 const Footer = () => {
 	return (
 		<footer
-			className="text-black text-center p-5 "
-			style={{ backgroundColor: "#8892b0" }}
+			className=" text-center p-5 "
+			style={{ backgroundColor: "#1e0045", color: "#8892b0" }}
 		>
 			<div className=" shadow-white p-3 rounded-lg inline-block mb-5">
 				<p>
@@ -14,7 +14,9 @@ const Footer = () => {
 					Vous pouvez consulter le code source{" "}
 					<a
 						href="https://github.com/Westindiess/MyPortfolio"
-						className="underline hover:text-blue-300 "
+						className="underline hover:text-blue-300"
+						rel="noopener noreferrer"
+						target="_blank"
 					>
 						ici
 					</a>
@@ -27,6 +29,8 @@ const Footer = () => {
 				<a
 					href="mailto:gregoryalexiss@gmail.com"
 					className="underline hover:text-blue-300"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					Email
 				</a>{" "}
@@ -34,6 +38,8 @@ const Footer = () => {
 				<a
 					href="https://github.com/Westindiess"
 					className="underline hover:text-blue-300"
+					rel="noopener noreferrer"
+					target="_blank"
 				>
 					Github
 				</a>

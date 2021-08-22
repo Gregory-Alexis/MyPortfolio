@@ -43,7 +43,11 @@ const Intro = () => {
 				</div>
 				<div className="flex mt-2">
 					<nav>
-						<a href="https://www.instagram.com/greg_9712/?hl=fr">
+						<a
+							href="https://www.instagram.com/greg_9712/?hl=fr"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
 							<img
 								src={Instalogo}
 								alt="instagram"
@@ -54,7 +58,11 @@ const Intro = () => {
 						</a>
 					</nav>
 					<nav>
-						<a href="https://www.linkedin.com/in/gr%C3%A9gory-alexis-57a21a202/">
+						<a
+							href="https://www.linkedin.com/in/gr%C3%A9gory-alexis-57a21a202/"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
 							<img
 								src={Linkelogo}
 								alt="linkedin"
@@ -65,7 +73,11 @@ const Intro = () => {
 						</a>
 					</nav>
 					<nav>
-						<a href="https://github.com/Westindiess">
+						<a
+							href="https://github.com/Westindiess"
+							rel="noopener noreferrer"
+							target="_blank"
+						>
 							<img
 								src={Gitlogo}
 								alt="github"
@@ -76,7 +88,6 @@ const Intro = () => {
 						</a>
 					</nav>
 				</div>
-
 				<div>
 					<button
 						type="button"
@@ -92,6 +103,8 @@ const Intro = () => {
 								letterSpacing: "2px",
 								fontFamily: "Inter",
 							}}
+							rel="noopener noreferrer"
+							target="_blank"
 						>
 							Contactez Moi
 						</a>
