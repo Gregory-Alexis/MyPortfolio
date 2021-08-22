@@ -73,7 +73,10 @@ const Infos = () => {
 					lancer pleinement dans une carrière de développeur front-end React.
 				</p>
 			</div>
-			<div data-aos="flip-down" className="pt-8  m-auto md:w-3/4 lg:w-auto  ">
+			<div
+				data-aos="flip-down"
+				className="pt-8  m-auto md:w-3/4 md:h-3/4 lg:w-auto  "
+			>
 				<img src={ReactIllu} alt="logo react" />
 			</div>
 		</article>
