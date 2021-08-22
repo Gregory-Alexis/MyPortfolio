@@ -9,7 +9,7 @@ const Infos = () => {
 			}}
 		>
 			<div
-				className="text-sm md:text-lg lg:text-xl"
+				className="text-sm md:text-base lg:text-lg"
 				data-aos="flip-right"
 				style={{ color: "#8892b0" }}
 			>
