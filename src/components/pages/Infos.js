@@ -31,27 +31,27 @@ const Infos = () => {
 				<p>
 					C'est au début de l'année 2020 que j'ai découvert le développement web
 					et j'ai donc décidé commencé cette aventure en apprenant les bases (
-					<span className="text-yellow-500">HTML</span>,
-					<span className="text-blue-600"> CSS</span> et{" "}
-					<span className="text-yellow-300">Javascript</span>) via différentes
+					<span style={{ color: "#ff8000" }}>HTML</span>,
+					<span style={{ color: "#001dbf" }}> CSS</span> et{" "}
+					<span style={{ color: "#ffff00" }}>Javascript</span>) via différentes
 					plateformes comme (
 					<a
 						href="https://www.codecademy.com/"
-						className="text-blue-800 underline hover:text-blue-300"
+						className="text-purplerain underline hover:text-blue-300"
 					>
 						Codecademy
 					</a>
 					,{" "}
 					<a
 						href="https://openclassrooms.com/fr/"
-						className="text-blue-800 underline hover:text-blue-300"
+						className="text-purplerain underline hover:text-blue-300"
 					>
 						OpenClassRoom
 					</a>
 					,{" "}
 					<a
 						href="https://www.freecodecamp.org/"
-						className="text-blue-800 underline hover:text-blue-300"
+						className="text-purplerain underline hover:text-blue-300"
 					>
 						FreeCodeCamp
 					</a>
