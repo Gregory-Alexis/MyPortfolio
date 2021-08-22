@@ -78,7 +78,7 @@ const Infos = () => {
 				data-aos="flip-down"
 				className="pt-8  m-auto md:w-3/4 md:h-3/4 lg:w-auto  "
 			>
-				<img src={ReactIllu} alt="logo react" />
+				<img src={ReactIllu} alt="logo react" width="900" height="900" />
 			</div>
 		</article>
 	)
