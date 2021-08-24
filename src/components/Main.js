@@ -4,11 +4,9 @@ import Projets from "./pages/Projets"
 
 const Main = () => {
 	return (
-		<section style={{ backgroundColor: "#151E2B" }}>
+		<section style={{ backgroundColor: "#151E2B" }} className="w-screen ">
 			<Intro />
-
 			<Infos />
-
 			<Projets />
 		</section>
 	)

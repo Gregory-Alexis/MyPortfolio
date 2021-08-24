@@ -31,16 +31,17 @@ function App() {
 
 	return (
 		<section>
-			<div className="fixed z-30 w-full backdrop-filter backdrop-blur">
+			<div className="fixed w-full z-30 backdrop-filter backdrop-blur ">
 				<Header
 					handleToggleButton={handleToggleButton}
 					width={width}
 					toggle={toggle}
+					setToggle={setToggle}
 				/>
 			</div>
 			<div className={toggle ? "filter blur-sm" : ""}>
 				<div className="flex items-center justify-center ">
-					<Main toggle={toggle} />
+					<Main />
 				</div>
 				<Footer />
 			</div>

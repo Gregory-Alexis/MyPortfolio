@@ -3,7 +3,8 @@ import React from "react"
 const Projets = () => {
 	return (
 		<article
-			className="p-8"
+			className="p-24"
+			id="projets"
 			style={{
 				fontFamily: "Heebo",
 				color: "#8892b0",

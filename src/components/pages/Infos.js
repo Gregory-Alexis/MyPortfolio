@@ -3,13 +3,14 @@ import ReactIllu from "../../assets/react.svg"
 const Infos = () => {
 	return (
 		<article
-			className=" p-8 lg:px-80 lg:grid lg:grid-cols-2 "
+			className=" p-8 pt-20 xl:px-80 xl:pt-36 lg:grid lg:grid-cols-2"
+			id="infos"
 			style={{
 				fontFamily: "Fira code",
 			}}
 		>
 			<div
-				className="text-sm mb-8 md:text-lg text-grey max-w-xl"
+				className="text-sm mb-8 md:text-lg lg:text-xl text-grey xl:max-w-xl m-auto"
 				data-aos="flip-right"
 			>
 				<h2
@@ -21,7 +22,6 @@ const Infos = () => {
 				>
 					À propos de moi
 				</h2>
-
 				<br />
 				<div>
 					<p>
@@ -35,11 +35,10 @@ const Infos = () => {
 					<p>
 						C'est au début de l'année 2020 que j'ai découvert le développement
 						web et j'ai donc décidé commencé cette aventure en apprenant les
-						bases (<span>HTML</span>,<span> CSS</span> et{" "}
-						<span>Javascript</span>) via différentes plateformes comme (
+						bases HTML, CSS et Javascript via différentes plateformes comme (
 						<a
 							href="https://www.codecademy.com/"
-							className="text-lightblue  underlinelink hover:text-red"
+							className="text-lightblue  underlinelink"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -48,7 +47,7 @@ const Infos = () => {
 						,{" "}
 						<a
 							href="https://openclassrooms.com/fr/"
-							className="text-lightblue underlinelink hover:text-red"
+							className="text-lightblue underlinelink"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -57,7 +56,7 @@ const Infos = () => {
 						,{" "}
 						<a
 							href="https://www.freecodecamp.org/"
-							className="text-lightblue underlinelink hover:text-red"
+							className="text-lightblue underlinelink"
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -72,7 +71,7 @@ const Infos = () => {
 						c'est ainsi, qu'à démarré mon aventure au sein de la formation{" "}
 						<a
 							href="https://alyra.fr/"
-							className=" underlinelink text-lightblue hover:text-red"
+							className=" underlinelink text-lightblue "
 							rel="noopener noreferrer"
 							target="_blank"
 						>
@@ -83,7 +82,7 @@ const Infos = () => {
 					</p>
 				</div>
 			</div>
-			<div data-aos="flip-down" className="m-auto md:w-3/4 md:h-3/4 lg:w-auto">
+			<div data-aos="flip-down" className="m-auto">
 				<img src={ReactIllu} alt="logo react" width="900" height="900" />
 			</div>
 		</article>

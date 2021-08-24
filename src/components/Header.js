@@ -1,4 +1,3 @@
-import "./Header.css"
 import Hero from "./Hero"
 import NavBar from "./NavBar"
 import ToggleButton from "./ToggleButton"
@@ -14,7 +13,7 @@ export const Header = ({ handleToggleButton, width, toggle }) => {
 				toggle={toggle}
 			/>
 			{width > 768 && <NavBar />}
-			{toggle && <ToggleNavbar toggle={toggle} />}
+			{toggle && <ToggleNavbar handleToggleButton={handleToggleButton} />}
 		</header>
 	)
 }

@@ -5,7 +5,7 @@ import Gitlogo from "../../assets/github.svg"
 const Intro = () => {
 	return (
 		// "acceuil" style de la page d'acceuil + filtre blur en arrière plan lors d'un clique sur le toggle boutton sur Smartphone
-		<main className="acceuil ">
+		<main className="acceuil min-h-screen" id="intro">
 			{/* "data-aos" est un plugin permettant certaines animation type fade, zoom (https://michalsnik.github.io/aos/)
 			 */}
 			<div data-aos="zoom-out">
@@ -31,7 +31,7 @@ const Intro = () => {
 					<p>Développeur junior React.</p>
 				</div>
 				<div
-					className=" font-bold mb-3 text-lg md:text-xl lg:text-2xl xl:text-3xl"
+					className=" font-bold mb-6 text-lg md:text-xl lg:text-2xl xl:text-3xl"
 					style={{
 						fontFamily: "Fira code",
 						color: "#8892b0",
@@ -41,7 +41,7 @@ const Intro = () => {
 						Passioné par le développement Front-End
 					</p>
 				</div>
-				<div className="flex mt-2">
+				<div className="flex mb-6">
 					<nav>
 						<a
 							href="https://www.instagram.com/greg_9712/?hl=fr"

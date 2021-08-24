@@ -19,5 +19,5 @@
 }
 
 .acceuil {
-	@apply mx-6 flex items-center justify-center min-h-screen;
+	@apply mx-6 flex items-center justify-center;
 }
