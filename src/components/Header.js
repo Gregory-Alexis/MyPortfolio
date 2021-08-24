@@ -4,9 +4,9 @@ import NavBar from "./NavBar"
 import ToggleButton from "./ToggleButton"
 import ToggleNavbar from "./ToggleNavbar"
 
-const Header = ({ handleToggleButton, width, toggle }) => {
+export const Header = ({ handleToggleButton, width, toggle }) => {
 	return (
-		<header className="flex px-4 py-5  justify-between shadow-md md:flex">
+		<header className="flex top px-4 py-5 justify-between shadow-md md:flex">
 			<Hero />
 			<ToggleButton
 				handleToggleButton={handleToggleButton}

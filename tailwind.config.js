@@ -4,22 +4,26 @@ module.exports = {
 	theme: {
 		extend: {
 			borderColor: (theme) => ({
-				purplerain: "#1e0045",
+				purplerain: "#0c0036",
 				lightblue: "#00e1ff",
 			}),
 			boxShadow: {
-				white: "0 2px 5px 2px rgba(255, 255, 255)",
+				white: "0 1px 3px 1px rgba(255, 255, 255)",
 			},
 			backgroundColor: (theme) => ({
 				lightblue: "#00e1ff",
-				purplerain: "#1e0045",
+				purplerain: "#0c0036",
+				pink: "##9e004a",
+				grey: "#ccd6f6",
 			}),
 
 			textColor: {
 				lightblue: "#00e1ff",
-				purplerain: "#1e0045",
+				purplerain: "#0c0036",
 				red: "#ff0000",
 				blue: "#001dbf",
+				grey: "#ccd6f6",
+				pink: "##9e004a",
 			},
 			keyframes: {
 				"right-to-left": {

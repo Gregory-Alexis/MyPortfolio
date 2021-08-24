@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .contact-button {
-	@apply flex justify-start mt-5 text-sm rounded-full transition duration-500 ease-out border-2 p-3 md:text-base hover:bg-white hover:bg-opacity-5 md:rounded-lg transform hover:scale-110;
+	@apply flex justify-start mt-5 text-sm rounded-3xl transition duration-500 ease-out border-2 p-3 md:text-base hover:bg-white hover:bg-opacity-5 transform hover:scale-110;
 }
 
 .blue-bg-link {

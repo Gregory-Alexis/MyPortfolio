@@ -4,9 +4,11 @@ import Projets from "./pages/Projets"
 
 const Main = () => {
 	return (
-		<section style={{ backgroundColor: "#1e0045" }}>
+		<section style={{ backgroundColor: "#151E2B" }}>
 			<Intro />
+
 			<Infos />
+
 			<Projets />
 		</section>
 	)

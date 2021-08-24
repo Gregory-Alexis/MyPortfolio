@@ -1,10 +1,10 @@
 const Footer = () => {
 	return (
 		<footer
-			className=" text-center p-5 "
-			style={{ backgroundColor: "#1e0045", color: "#8892b0" }}
+			className="text-center text-sm md:text-base p-5 text-grey"
+			style={{ backgroundColor: "#151E2B" }}
 		>
-			<div className=" shadow-white p-3 rounded-lg inline-block mb-5">
+			<div className="shadow-white p-3 rounded-lg inline-block mb-5">
 				<p>
 					Ceci est la version 1.0 du site et il est toujours en cours de
 					développement.
@@ -27,7 +27,7 @@ const Footer = () => {
 			<p>
 				Pour toute remarque ou suggèstion n'hésitez pas à me contacter via{" "}
 				<a
-					href="mailto:gregoryalexiss@gmail.com"
+					href="mailto:gregoryalexis.dev@gmail.com"
 					className="underline hover:text-blue-300"
 					rel="noopener noreferrer"
 					target="_blank"

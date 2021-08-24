@@ -1,6 +1,6 @@
-import Instalogo from "../../assets/insta.png"
-import Linkelogo from "../../assets/linkedin.png"
-import Gitlogo from "../../assets/github.png"
+import Instalogo from "../../assets/insta.svg"
+import Linkelogo from "../../assets/linkedin.svg"
+import Gitlogo from "../../assets/github.svg"
 
 const Intro = () => {
 	return (
@@ -51,7 +51,7 @@ const Intro = () => {
 							<img
 								src={Instalogo}
 								alt="instagram"
-								className="md:w-12 md:h-12 hover:relative bottom-2"
+								className="transform hover:scale-110 duration-300 md:w-12 md:h-12"
 								width="40"
 								height="40"
 							/>
@@ -66,7 +66,7 @@ const Intro = () => {
 							<img
 								src={Linkelogo}
 								alt="linkedin"
-								className="ml-4 md:w-12 md:h-12 hover:relative bottom-2"
+								className=" transform hover:scale-110 duration-300 ml-4 md:w-12 md:h-12"
 								width="40"
 								height="40"
 							/>
@@ -81,7 +81,7 @@ const Intro = () => {
 							<img
 								src={Gitlogo}
 								alt="github"
-								className="ml-4 md:w-12 md:h-12 bottom-2 hover:relative"
+								className="transform hover:scale-110 duration-300 ml-4 md:w-12 md:h-12"
 								width="40"
 								height="40"
 							/>
@@ -96,11 +96,10 @@ const Intro = () => {
 						style={{ borderColor: "#00e1ff" }}
 					>
 						<a
-							href="mailto:gregoryalexiss@gmail.com"
-							className="no-underline lg:p-1"
+							href="mailto:gregoryalexis.dev@gmail.com"
+							className="no-underline lg:px-5 lg:py-1"
 							style={{
 								color: "#00e1ff",
-								letterSpacing: "2px",
 								fontFamily: "Inter",
 							}}
 							rel="noopener noreferrer"
