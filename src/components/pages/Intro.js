@@ -51,7 +51,7 @@ const Intro = () => {
 							<img
 								src={Instalogo}
 								alt="instagram"
-								className="transform hover:scale-110 duration-300 md:w-12 md:h-12"
+								className="intro-icons-style"
 								width="40"
 								height="40"
 							/>
@@ -66,7 +66,8 @@ const Intro = () => {
 							<img
 								src={Linkelogo}
 								alt="linkedin"
-								className=" transform hover:scale-110 duration-300 ml-4 md:w-12 md:h-12"
+								// "intro-icons-style" style des icones sur la page d'acceuil (voir fichier index.css)
+								className="intro-icons-style ml-4"
 								width="40"
 								height="40"
 							/>
@@ -81,7 +82,7 @@ const Intro = () => {
 							<img
 								src={Gitlogo}
 								alt="github"
-								className="transform hover:scale-110 duration-300 ml-4 md:w-12 md:h-12"
+								className="intro-icons-style ml-4"
 								width="40"
 								height="40"
 							/>

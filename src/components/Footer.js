@@ -1,9 +1,6 @@
 const Footer = () => {
 	return (
-		<footer
-			className="text-center text-sm md:text-base p-6 text-grey"
-			style={{ backgroundColor: "#151E2B" }}
-		>
+		<footer className="pt-24 text-center text-sm md:text-base  text-grey">
 			<div className="shadow-white p-3 rounded-lg inline-block mb-5">
 				<p>
 					Ceci est la version 1.0 du site et il est toujours en cours de
@@ -14,7 +11,8 @@ const Footer = () => {
 					Vous pouvez consulter le code source{" "}
 					<a
 						href="https://github.com/Westindiess/MyPortfolio"
-						className="underline hover:text-blue-300"
+						// "underlinelink" voir fichier app.css
+						className="text-lightblue underlinelink"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
@@ -28,7 +26,7 @@ const Footer = () => {
 				Pour toute remarque ou suggèstion n'hésitez pas à me contacter via{" "}
 				<a
 					href="mailto:gregoryalexis.dev@gmail.com"
-					className="underline hover:text-blue-300"
+					className="text-lightblue underlinelink"
 					rel="noopener noreferrer"
 					target="_blank"
 				>
@@ -37,7 +35,7 @@ const Footer = () => {
 				ou{" "}
 				<a
 					href="https://github.com/Westindiess"
-					className="underline hover:text-blue-300"
+					className="text-lightblue underlinelink"
 					rel="noopener noreferrer"
 					target="_blank"
 				>

@@ -10,7 +10,7 @@ const Infos = () => {
 			}}
 		>
 			<div
-				className="text-sm mb-8 md:text-lg lg:text-xl text-grey xl:max-w-xl m-auto"
+				className="text-sm text-grey mb-8 m-auto md:text-lg lg:text-xl xl:max-w-xl"
 				data-aos="flip-right"
 			>
 				<h2
@@ -71,7 +71,7 @@ const Infos = () => {
 						c'est ainsi, qu'à démarré mon aventure au sein de la formation{" "}
 						<a
 							href="https://alyra.fr/"
-							className=" underlinelink text-lightblue "
+							className="underlinelink text-lightblue "
 							rel="noopener noreferrer"
 							target="_blank"
 						>

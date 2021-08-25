@@ -21,3 +21,7 @@
 .acceuil {
 	@apply flex items-center justify-center;
 }
+
+.intro-icons-style {
+	@apply transform hover:scale-110 duration-300 md:w-12 md:h-12;
+}
