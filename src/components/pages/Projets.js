@@ -1,21 +1,35 @@
-import React from "react"
+import GoogleFont from "../../assets/GoogleFont.png"
 
 const Projets = () => {
 	return (
 		<article
-			className="p-24"
+			className="lg:px-96 lg:py-32 flex justify-center"
 			id="projets"
 			style={{
 				fontFamily: "Heebo",
 				color: "#8892b0",
 			}}
 		>
-			<div className="text-sm md:text-base lg:text-lg ">
-				<h2 className="text-center text-xl border-b-2 p-5 text-lightblue md:text-2xl lg:text-2xl xl:text-3xl">
-					Mes Projets
-				</h2>
-				<br />
-				<p className="text-center">COMING SOON</p>
+			<div class=" w-full flex flex-wrap justify-center items-center gap-3 py-5 ">
+				<div class="md:w-1/4 rounded p-3 text-grey   bg-lightgrey">
+					<div class="mb-3 pb-3 border-b border-1 border-grey">
+						<h3 class="text-xl font-semibold text-shadow">Alyra Google Font</h3>
+					</div>
+					<a
+						href="https://google-font.netlify.app/"
+						alt="image projet google font"
+					>
+						<img
+							src={GoogleFont}
+							alt="image1"
+							class="w-full h-48 object-cover mb-2 "
+						/>
+						<p class="mb-3 tracking-wide text-base text-shadow">Projet</p>
+						<button class="backdrop  border  px-3 py-1.5 rounded  text-lg">
+							Detail
+						</button>
+					</a>
+				</div>
 			</div>
 		</article>
 	)

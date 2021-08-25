@@ -3,7 +3,7 @@ import ReactIllu from "../../assets/react.svg"
 const Infos = () => {
 	return (
 		<article
-			className=" p-8 pt-20 xl:px-80 xl:pt-36 lg:grid lg:grid-cols-2"
+			className="pt-20 xl:px-80 xl:pt-36 lg:grid lg:grid-cols-2"
 			id="infos"
 			style={{
 				fontFamily: "Fira code",
@@ -14,7 +14,7 @@ const Infos = () => {
 				data-aos="flip-right"
 			>
 				<h2
-					className="text-center text-xl border-b-2 p-5 text-lightblue md:text-3xl"
+					className="text-center text-xl border-b-2 p-2 text-lightblue md:text-3xl"
 					style={{
 						fontFamily: "Heebo",
 						borderBottomColor: "#8892b0",
@@ -82,7 +82,7 @@ const Infos = () => {
 					</p>
 				</div>
 			</div>
-			<div data-aos="flip-down" className="m-auto">
+			<div data-aos="flip-down" className="m-auto md:w-3/4 lg:w-auto">
 				<img src={ReactIllu} alt="logo react" width="900" height="900" />
 			</div>
 		</article>

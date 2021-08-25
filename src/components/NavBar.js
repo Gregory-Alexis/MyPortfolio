@@ -3,7 +3,7 @@ const NavBar = () => {
 		<nav>
 			<ul className="flex flex-col mt-2 md:flex-row md:mx-4 ">
 				{/* "size-link-nav" style des îcones (insta, linkedin, git) sur la page d'acceuil (voir le fichier index.css) */}
-				<li className="size-link-nav">
+				<li>
 					<a href="#intro" className="text-grey hover:text-lightblue">
 						Acceuil
 					</a>

@@ -40,7 +40,7 @@ function App() {
 				/>
 			</div>
 			<div className={toggle ? "filter blur-sm" : ""}>
-				<div className="flex items-center justify-center ">
+				<div className="flex items-center justify-center">
 					<Main />
 				</div>
 				<Footer />

@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
 		<footer
-			className="text-center text-sm md:text-base p-5 text-grey"
+			className="text-center text-sm md:text-base p-6 text-grey"
 			style={{ backgroundColor: "#151E2B" }}
 		>
 			<div className="shadow-white p-3 rounded-lg inline-block mb-5">
@@ -44,7 +44,6 @@ const Footer = () => {
 					Github
 				</a>
 			</p>
-			.
 		</footer>
 	)
 }
