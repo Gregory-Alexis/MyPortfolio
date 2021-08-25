@@ -2,15 +2,18 @@ module.exports = {
 	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		stroke: {
+			lightblue: "#00e1ff",
+		},
 		extend: {
-			borderColor: (theme) => ({
+			borderColor: {
 				lightblue: "#00e1ff",
 				grey: "#ccd6f6",
 				lightgrey: "#1c2736",
-			}),
+			},
 			boxShadow: {
 				white: "0 1px 3px 1px rgba(255, 255, 255)",
-				lightblue: "0 1px 3px 1px rgba(0, 255, 255)",
+				grey: "0px 2px 5px 1px rgba(204, 214, 246)",
 			},
 			backgroundColor: (theme) => ({
 				lightblue: "#00e1ff",
@@ -44,6 +47,7 @@ module.exports = {
 	variants: {
 		extend: {
 			position: [`hover`],
+			stroke: ["hover", "focus"],
 		},
 	},
 	plugins: [],
