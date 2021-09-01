@@ -7,11 +7,11 @@
 }
 
 .blue-bg-link {
-	@apply text-center m-2 rounded-lg transition duration-300 ease-in-out md:border-0  hover:bg-lightblue;
+	@apply text-center m-2 rounded-lg transition duration-300 ease-in-out md:border-0 hover:bg-lightblue hover:text-lightgrey;
 }
 
 .size-link-nav {
-	@apply mb-2 md:mr-4 md:ml-4 md:text-lg lg:text-xl;
+	@apply mb-2 md:mr-4 md:ml-4 md:text-lg lg:text-xl xl:text-2xl;
 }
 
 .toggle-rotate {

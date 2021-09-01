@@ -5,7 +5,7 @@ import ToggleNavbar from "./ToggleNavbar"
 
 export const Header = ({ handleToggleButton, width, toggle }) => {
 	return (
-		<header className="flex top px-4 py-5 justify-between shadow-md md:flex">
+		<header className="flex px-4 py-5 shadow-md ">
 			<Hero />
 			<ToggleButton
 				handleToggleButton={handleToggleButton}

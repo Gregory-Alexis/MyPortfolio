@@ -1,11 +1,8 @@
 const Footer = () => {
 	return (
-		<footer className="pt-24 text-center text-sm md:text-base  text-grey">
+		<footer className="pt-24 p-6 text-center text-sm md:text-base  text-grey">
 			<div className="shadow-white p-3 rounded-lg inline-block mb-5">
-				<p>
-					Ceci est la version 1.0 du site et il est toujours en cours de
-					développement.
-				</p>
+				<p>Site toujours en cours de développement.</p>
 				<br />
 				<p>
 					Vous pouvez consulter le code source{" "}

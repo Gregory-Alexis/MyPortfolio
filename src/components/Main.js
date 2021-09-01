@@ -4,7 +4,7 @@ import Projets from "./pages/Projets"
 
 const Main = () => {
 	return (
-		<section>
+		<section className="p-6">
 			<Intro />
 			<Infos />
 			<Projets />

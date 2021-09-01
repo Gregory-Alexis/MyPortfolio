@@ -30,7 +30,7 @@ function App() {
 	}, [])
 
 	return (
-		<section className="p-6" style={{ backgroundColor: "#151E2B" }}>
+		<section style={{ backgroundColor: "#151E2B" }}>
 			<div className="fixed w-full z-30 backdrop-filter backdrop-blur ">
 				<Header
 					handleToggleButton={handleToggleButton}
