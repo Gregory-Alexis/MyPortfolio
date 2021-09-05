@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<footer className="text-center text-sm md:text-base  text-grey">
+		<footer className="text-center text-sm md:text-base  text-grey pt-24">
 			<div className="shadow-white p-3 rounded-lg inline-block">
 				<p>Site toujours en cours de développement.</p>
 				<br />
@@ -19,7 +19,7 @@ const Footer = () => {
 				</p>
 			</div>
 			<br />
-			<p>
+			<p className="pt-5">
 				Pour toute remarque ou suggèstion n'hésitez pas à me contacter via{" "}
 				<a
 					href="mailto:gregoryalexis.dev@gmail.com"
