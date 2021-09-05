@@ -62,7 +62,7 @@ const StarWarsEathProject = () => {
 								- D'ajouter un boutton "Suivant" permettant d'afficher les 10
 								planètes suivantes.
 								<br />- Une fois toute les planètes afficher, il fallait ajouter
-								une phrase signifiant que toute les planets avaient été
+								une phrase signifiant que toute les planètes avaient été
 								recensées.
 							</small>
 						</p>

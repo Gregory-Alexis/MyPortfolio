@@ -54,10 +54,10 @@ const GoogleFontProject = () => {
 								Projet réalisé en formation. Les objectifs étaient de:
 								<br />- Récupérer les données via l'API google font.
 								<br />- Les Afficher dans des cartes avec le nom de la police,
-								son variant, sa catégorie, l'aperçu et le lien direct vers la
-								police sélectionnée.
+								de son variant, de sa catégorie, l'aperçu et le lien direct vers
+								la police sélectionnée.
 								<br />
-								- Ajouter un filtre permettant de choisir entre les 10 polices
+								- D'ajouter un filtre permettant de choisir entre les 10 polices
 								les plus populaires, les plus récentes et les plus tendances.
 								<br />- Pouvoir changer de texte dans la section 'Tapez votre
 								text' et qu'il s'actualise en même temps dans les cartes.

@@ -14,7 +14,7 @@ const GradientsProject = () => {
 				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between ">
 					<h3 className="text-xl">Gradients Project</h3>
 					<a
-						href="https://github.com/Westindiess/alyra-gradients-context"
+						href="https://github.com/Westindiess/Gradient-Project"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
@@ -31,7 +31,7 @@ const GradientsProject = () => {
 					</a>
 				</div>
 				<a
-					href="https://gradientsproject.netlify.app/"
+					href="https://gradientproject.netlify.app/"
 					alt="image projet google font"
 					rel="noopener noreferrer"
 					target="_blank"
@@ -57,16 +57,17 @@ const GradientsProject = () => {
 								de choisir la couleur du gradient suivant, précédent ou d'un
 								gradient aléatoire.
 								<br />- D'ajouter un filtre permettant d'afficher les gradients
-								en fonction de leur teinte (bleu, rouge, orange, etc...) ou de
+								en fonction de leurs teintes (bleu, rouge, orange, etc...) ou de
 								tous les afficher.
 								<br />- D'ajouter un autre filtre dans les cartes qui permettait
-								de d'afficher les dégradés en fonctions de leur tags de couleur.
+								de d'afficher les dégradés en fonctions de leurs tags de
+								couleur.
 								<br />
 								- Mettre dans les cartes un boutton "Plein écran" qui
 								redirigerai vers une autre page.
 								<br />- Sur cette nouvelle page, il fallait créer 3 bouttons
 								(home, suivant, précédent) et afficher les dégradés de couleur
-								en plein écran avec leur nom et leur code respectif.
+								en plein écran avec leurs noms et leurs codes respectif.
 							</small>
 						</p>
 					)}
