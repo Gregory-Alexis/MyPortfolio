@@ -1,9 +1,15 @@
+import { useState } from "react"
 import Planets from "../../../assets/Planets.png"
 
 const StarWarsEathProject = () => {
+	const [detailsStarWars, setDetailsStarWars] = useState(false)
+
+	const handleDetailsStarWars = () => {
+		setDetailsStarWars(!detailsStarWars)
+	}
 	return (
-		<div className="flex justify-center items-center text-sm md:text-base lg:text-lg">
-			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105">
+		<div className="text-sm md:text-base lg:text-lg">
+			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105 xl:w-5/6 xl:m-auto">
 				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between ">
 					<h3 className="text-xl">Star Wars Project</h3>
 					<a
@@ -32,9 +38,36 @@ const StarWarsEathProject = () => {
 					<img
 						src={Planets}
 						alt="planets star wars project"
-						className="w-full h-48 object-cover mb-2 rounded-lg"
+						className="w-full h-48 object-cover mb-2 rounded-lg xl:h-full"
 					/>
 				</a>
+				<div className="pt-2 ">
+					<button
+						className="border rounded-md p-1 font-bold hover:text-lightblue"
+						onClick={handleDetailsStarWars}
+					>
+						Détails
+					</button>
+					{detailsStarWars && (
+						<p className="pt-4">
+							<small>
+								Petit projet réalisé en formation. Les objectifs étaient de:
+								<br />
+								- Récupérer les données via l'API star wars et les afficher par
+								10.
+								<br />
+								- Ces cartes devaient contenir le nom, le nombre d'habitant et
+								le climat de chaque planètes.
+								<br />
+								- D'ajouter un boutton "Suivant" permettant d'afficher les 10
+								planètes suivantes.
+								<br />- Une fois toute les planètes afficher, il fallait ajouter
+								une phrase signifiant que toute les planets avaient été
+								recensées.
+							</small>
+						</p>
+					)}
+				</div>
 			</div>
 		</div>
 	)

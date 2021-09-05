@@ -1,12 +1,16 @@
 import GoogleFont from "../../../assets/GoogleFont.png"
-
-import React from "react"
+import React, { useState } from "react"
 
 const GoogleFontProject = () => {
+	const [detailsGoogleFront, setDetailsGoogleFront] = useState(false)
+
+	const handleDetailsGoogleFront = () => {
+		setDetailsGoogleFront(!detailsGoogleFront)
+	}
 	return (
-		<div className=" flex justify-center items-center text-sm md:text-base lg:text-lg">
-			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105">
-				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between ">
+		<div className="text-sm md:text-base lg:text-lg ">
+			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105 xl:w-5/6 xl:m-auto">
+				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between">
 					<h3 className="text-xl">Google Fonts Project</h3>
 					<a
 						href="https://github.com/Westindiess/google-font-project"
@@ -34,9 +38,35 @@ const GoogleFontProject = () => {
 					<img
 						src={GoogleFont}
 						alt="google font project"
-						className="w-full h-48 object-cover mb-2 rounded-lg"
+						className="h-48 object-cover mb-2 rounded-lg xl:h-full"
 					/>
 				</a>
+				<div className="pt-2 ">
+					<button
+						className="border rounded-md p-1 font-bold hover:text-lightblue"
+						onClick={handleDetailsGoogleFront}
+					>
+						Détails
+					</button>
+					{detailsGoogleFront && (
+						<p className="pt-4">
+							<small>
+								Projet réalisé en formation. Les objectifs étaient de:
+								<br />- Récupérer les données via l'API google font.
+								<br />- Les Afficher dans des cartes avec le nom de la police,
+								son variant, sa catégorie, l'aperçu et le lien direct vers la
+								police sélectionnée.
+								<br />
+								- Ajouter un filtre permettant de choisir entre les 10 polices
+								les plus populaires, les plus récentes et les plus tendances.
+								<br />- Pouvoir changer de texte dans la section 'Tapez votre
+								text' et qu'il s'actualise en même temps dans les cartes.
+								<br />- Intégrer une barre "range" qui augmente ou diminue la
+								taille de la police.
+							</small>
+						</p>
+					)}
+				</div>
 			</div>
 		</div>
 	)

@@ -11,7 +11,7 @@ const Infos = () => {
 		>
 			<div data-aos="flip-right">
 				<h2
-					className="pb-5 text-center text-xl border-b-2 text-lightblue md:text-3xl "
+					className="pb-5 text-center text-xl border-b-2 text-lightblue md:text-3xl md:w-96 md:m-auto"
 					style={{
 						fontFamily: "Heebo",
 						borderBottomColor: "#8892b0",
@@ -20,7 +20,7 @@ const Infos = () => {
 					À propos de moi
 				</h2>
 
-				<div className="pt-5 text-sm text-grey mb-8 md:text-lg lg:text-xl xl:max-w-xl">
+				<div className="pt-5  text-sm text-grey mb-8 md:pt-16 md:text-lg lg:text-xl xl:max-w-xl">
 					<p>
 						Bonjour!, Je m'appelle Grégory et je suis passionné depuis plus d'un
 						an maintenant par le développement front-end. Après avoir passé ma

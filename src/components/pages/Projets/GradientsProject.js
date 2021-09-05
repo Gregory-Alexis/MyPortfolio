@@ -1,9 +1,16 @@
+import { useState } from "react"
 import Gradients from "../../../assets/gradients.png"
 
 const GradientsProject = () => {
+	const [detailsGradient, setDetailsGradient] = useState(false)
+
+	const handleDetailsGradient = () => {
+		setDetailsGradient(!detailsGradient)
+	}
+
 	return (
-		<div className="flex justify-center items-center text-sm md:text-base lg:text-lg">
-			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105">
+		<div className="text-sm md:text-base lg:text-lg">
+			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105 xl:w-5/6 xl:m-auto">
 				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between ">
 					<h3 className="text-xl">Gradients Project</h3>
 					<a
@@ -32,9 +39,38 @@ const GradientsProject = () => {
 					<img
 						src={Gradients}
 						alt="gradients project"
-						className="w-full h-48 object-cover mb-2 rounded-lg"
+						className="w-full h-48 object-cover mb-2 rounded-lg xl:h-full"
 					/>
 				</a>
+				<div className="pt-2 ">
+					<button
+						className="border rounded-md p-1 font-bold hover:text-lightblue"
+						onClick={handleDetailsGradient}
+					>
+						Détails
+					</button>
+					{detailsGradient && (
+						<p className="pt-4">
+							<small>
+								Projet réalisé en formation. Les objectifs étaient de:
+								<br />- Créer un Header et y ajouter 3 bouttons qui permettaient
+								de choisir la couleur du gradient suivant, précédent ou d'un
+								gradient aléatoire.
+								<br />- D'ajouter un filtre permettant d'afficher les gradients
+								en fonction de leur teinte (bleu, rouge, orange, etc...) ou de
+								tous les afficher.
+								<br />- D'ajouter un autre filtre dans les cartes qui permettait
+								de d'afficher les dégradés en fonctions de leur tags de couleur.
+								<br />
+								- Mettre dans les cartes un boutton "Plein écran" qui
+								redirigerai vers une autre page.
+								<br />- Sur cette nouvelle page, il fallait créer 3 bouttons
+								(home, suivant, précédent) et afficher les dégradés de couleur
+								en plein écran avec leur nom et leur code respectif.
+							</small>
+						</p>
+					)}
+				</div>
 			</div>
 		</div>
 	)
