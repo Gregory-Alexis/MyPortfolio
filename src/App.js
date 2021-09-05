@@ -19,7 +19,7 @@ function App() {
 	useEffect(() => {
 		const changeWidth = () => {
 			setWidth(window.innerWidth)
-			if (window.innerWidth > 768) {
+			if (window.innerWidth >= 1024) {
 				setToggle(false)
 			}
 		}
@@ -31,7 +31,7 @@ function App() {
 
 	return (
 		<section style={{ backgroundColor: "#151E2B" }}>
-			<div className="fixed w-full z-30 backdrop-filter backdrop-blur ">
+			<div className="fixed w-full z-30 backdrop-filter backdrop-blur">
 				<Header
 					handleToggleButton={handleToggleButton}
 					width={width}

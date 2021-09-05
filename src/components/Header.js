@@ -12,7 +12,7 @@ export const Header = ({ handleToggleButton, width, toggle }) => {
 				width={width}
 				toggle={toggle}
 			/>
-			{width > 768 && <NavBar />}
+			{width >= 1024 && <NavBar />}
 			{toggle && <ToggleNavbar handleToggleButton={handleToggleButton} />}
 		</header>
 	)

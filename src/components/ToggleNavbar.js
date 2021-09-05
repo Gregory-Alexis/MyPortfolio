@@ -3,10 +3,10 @@ const ToggleNavbar = ({ handleToggleButton }) => {
 		<nav
 			/* "animate-right-to-left" le déroulement vers la gauche de la NavBar lors d'un click sur le toggle button via Smartphone. 
             Petit soucis, le déroulement inverse ne se fait pas. (voir le fichier tailwind.config.js) */
-			className="fixed right-0 top-0 flex h-screen items-center w-64 z-10 animate-right-to-left"
+			className="fixed right-0 top-0 flex h-screen items-center w-64 z-10 animate-right-to-left "
 			style={{ color: "#ccd6f6", backgroundColor: "#151E2B" }}
 		>
-			<ul className="flex flex-col mt-2 text-2xl w-screen  md:flex-row">
+			<ul className="flex flex-col mt-2 text-2xl w-screen lg:flex-row">
 				<div
 					// "green-bg-link" le style des liens (Acceuil, Infos, Projet, Exp)  sur petit écran (voir fichier index.css)
 					className="blue-bg-link "

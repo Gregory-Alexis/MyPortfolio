@@ -4,7 +4,7 @@ import { CgClose } from "react-icons/cg"
 const ToggleButton = ({ width, handleToggleButton, toggle }) => {
 	return (
 		<div className="flex ml-auto z-20">
-			{width < 768 && (
+			{width < 1024 && (
 				<button
 					type="button"
 					aria-label="menu boutton"

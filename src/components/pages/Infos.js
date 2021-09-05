@@ -3,7 +3,7 @@ import ReactIllu from "../../assets/react.svg"
 const Infos = () => {
 	return (
 		<article
-			className="pt-20 xl:px-80 xl:pt-36 lg:grid lg:grid-cols-2"
+			className="pt-24 xl:px-80 xl:pt-36 lg:grid lg:grid-cols-2"
 			id="infos"
 			style={{
 				fontFamily: "Fira code",
