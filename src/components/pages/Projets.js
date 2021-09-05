@@ -13,7 +13,7 @@ const Projets = () => {
 			className="pt-24"
 		>
 			<h2
-				className="text-center text-xl border-b-2 p-5 text-lightblue md:text-3xl"
+				className="pb-5 text-center text-xl border-b-2 text-lightblue md:text-3xl"
 				style={{
 					fontFamily: "Heebo",
 					borderBottomColor: "#8892b0",

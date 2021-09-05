@@ -19,7 +19,7 @@
 }
 
 .acceuil {
-	@apply flex items-center justify-center;
+	@apply flex items-center justify-center md:ml-24;
 }
 
 .intro-icons-style {
