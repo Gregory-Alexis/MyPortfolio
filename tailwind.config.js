@@ -9,7 +9,7 @@ module.exports = {
 			borderColor: {
 				lightblue: "#00e1ff",
 				grey: "#ccd6f6",
-				lightgrey: "#1c2736",
+				darkgrey: "#1c2736",
 			},
 			boxShadow: {
 				white: "0 1px 3px 1px rgba(255, 255, 255)",
@@ -18,13 +18,13 @@ module.exports = {
 			backgroundColor: (theme) => ({
 				lightblue: "#00e1ff",
 				grey: "#ccd6f6",
-				lightgrey: "#1c2736",
+				darkgrey: "#1c2736",
 			}),
 
 			textColor: {
 				lightblue: "#00e1ff",
 				grey: "#ccd6f6",
-				lightgrey: "#1b293d",
+				darkgrey: "#1b293d",
 			},
 			keyframes: {
 				"right-to-left": {
