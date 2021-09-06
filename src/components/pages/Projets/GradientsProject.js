@@ -10,7 +10,7 @@ const GradientsProject = () => {
 
 	return (
 		<div className="text-sm md:text-base lg:text-lg">
-			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105 xl:w-5/6 xl:m-auto">
+			<div className="cards-style xl:ml-auto">
 				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between ">
 					<h3 className="text-xl">Gradients Project</h3>
 					<a

@@ -8,8 +8,9 @@ const GoogleFontProject = () => {
 		setDetailsGoogleFront(!detailsGoogleFront)
 	}
 	return (
-		<div className="text-sm md:text-base lg:text-lg ">
-			<div className="rounded-lg p-3 text-grey bg-lightgrey duration-300 transform hover:shadow-grey hover:scale-105 xl:w-5/6 xl:m-auto">
+		<div className="text-sm md:text-base lg:text-lg">
+			{/* "cards-style" (voir fichier index.css) */}
+			<div className="cards-style xl:ml-auto">
 				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between">
 					<h3 className="text-xl">Google Fonts Project</h3>
 					<a
@@ -38,16 +39,17 @@ const GoogleFontProject = () => {
 					<img
 						src={GoogleFont}
 						alt="google font project"
-						className="h-48 object-cover mb-2 rounded-lg xl:h-full"
+						className="w-full h-48 object-cover mb-2 rounded-lg xl:h-full"
 					/>
 				</a>
-				<div className="pt-2 ">
+				<div className="pt-2">
 					<button
 						className="border rounded-md p-1 font-bold hover:text-lightblue"
 						onClick={handleDetailsGoogleFront}
 					>
 						Détails
 					</button>
+
 					{detailsGoogleFront && (
 						<p className="pt-4">
 							<small>

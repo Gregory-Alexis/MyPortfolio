@@ -19,8 +19,8 @@ const Infos = () => {
 				>
 					À propos de moi
 				</h2>
-
-				<div className="pt-5  text-sm text-grey mb-8 md:pt-16 md:text-lg lg:text-xl xl:max-w-xl">
+				{/* "info-text-style" mise en forme global de la section texte "infos"*/}
+				<div className="info-text-style">
 					<p>
 						Bonjour!, Je m'appelle Grégory et je suis passionné depuis plus d'un
 						an maintenant par le développement front-end. Après avoir passé ma

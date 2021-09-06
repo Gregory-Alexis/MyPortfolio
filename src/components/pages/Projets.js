@@ -21,11 +21,12 @@ const Projets = () => {
 			>
 				Mes projets
 			</h2>
-			<div className="pt-5  space-y-5 gap-5 md:pt-16 md:space-y-0  md:grid md:grid-cols-2 lg:px-10 xl:w-3/4 xl:m-auto">
+			{/* "project-section-style" mise en forme global de la section "projet" */}
+			<section className="project-section-style">
 				<GoogleFontProject />
 				<StarWarsEathProject />
 				<GradientsProject />
-			</div>
+			</section>
 		</article>
 	)
 }
