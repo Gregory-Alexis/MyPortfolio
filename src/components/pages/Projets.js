@@ -1,5 +1,6 @@
 import GoogleFontProject from "./Projets/GoogleFontProject"
 import GradientsProject from "./Projets/GradientsProject"
+import MovieProject from "./Projets/MovieProject"
 import StarWarsEathProject from "./Projets/StarWarsEathProject"
 
 const Projets = () => {
@@ -26,6 +27,7 @@ const Projets = () => {
 				<GoogleFontProject />
 				<StarWarsEathProject />
 				<GradientsProject />
+				<MovieProject />
 			</section>
 		</article>
 	)

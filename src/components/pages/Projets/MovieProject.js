@@ -1,20 +1,19 @@
-import { useState } from "react"
-import Gradients from "../../../assets/gradients.png"
+import React, { useState } from "react"
+import Movie from "../../../assets/ParticeepProject.png"
 
-const GradientsProject = () => {
-	const [detailsGradient, setDetailsGradient] = useState(false)
+const MovieProject = () => {
+	const [detailsMovieProject, setDetailsSMovieProject] = useState(false)
 
-	const handleDetailsGradient = () => {
-		setDetailsGradient(!detailsGradient)
+	const handleDetailsStarWars = () => {
+		setDetailsSMovieProject(!detailsMovieProject)
 	}
-
 	return (
-		<div className="text-sm md:text-base lg:text-lg">
-			<div className="cards-style xl:ml-auto">
-				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between ">
-					<h3 className="text-xl">Gradients Project</h3>
+		<div className="text-sm md:text-base lg:text-lg ">
+			<div className="cards-style ">
+				<div className="mb-3 pb-3 border-b border-1 border-grey flex justify-between">
+					<h3 className="text-xl">Particeep Movie Project</h3>
 					<a
-						href="https://github.com/Westindiess/Gradient-Project"
+						href="https://github.com/Westindiess/Particeep-project"
 						rel="noopener noreferrer"
 						target="_blank"
 					>
@@ -31,43 +30,62 @@ const GradientsProject = () => {
 					</a>
 				</div>
 				<a
-					href="https://gradientproject.netlify.app/"
-					alt="image projet gradients"
+					href="https://movie-particeep-project.netlify.app/"
+					alt="image projet film par paticeep"
 					rel="noopener noreferrer"
 					target="_blank"
 				>
 					<img
-						src={Gradients}
-						alt="gradients project"
+						src={Movie}
+						alt="Movie Project by particeep"
 						className="w-full h-48 object-cover mb-2 rounded-lg xl:h-full"
 					/>
 				</a>
 				<div className="pt-2 ">
 					<button
 						className="border rounded-md p-1 font-bold hover:text-lightblue"
-						onClick={handleDetailsGradient}
+						onClick={handleDetailsStarWars}
 					>
 						Détails
 					</button>
-					{detailsGradient && (
+					{detailsMovieProject && (
 						<p className="pt-4">
 							<small>
-								Projet réalisé en formation. Les objectifs étaient de:
-								<br />- Créer un Header et y ajouter 3 bouttons qui permettaient
-								de choisir la couleur du gradient suivant, précédent ou d'un
-								gradient aléatoire.
-								<br />- D'ajouter un filtre permettant d'afficher les gradients
-								en fonction de leurs teintes (bleu, rouge, orange, etc...) ou de
-								tous les afficher.
-								<br />- D'ajouter un autre filtre dans les cartes qui permettait
-								de d'afficher les dégradés en fonctions de leurs tags de
-								couleur.
+								Projet React Interview par{" "}
+								<a
+									href="https://github.com/Particeep/react-interview"
+									className="underline hover:text-lightblue"
+								>
+									Particeep
+								</a>
+								. <br />
+								Objectifs:
 								<br />
-								- Mettre dans les cartes un boutton "Plein écran" qui
-								redirigerai vers une autre page.
-								<br />- Sur cette nouvelle page, il fallait créer 3 bouttons
-								(home, suivant, précédent) et afficher les dégradés de couleur
-								en plein écran avec leurs noms et leurs codes respectif.
+								- Lister les films dans des cartes avec: le titre en gras, la
+								catégorie et une jauge type Youtube indiquant le ratio
+								likes/dislikes. Les cartes doivent être côtes à côtes et
+								responsive. Càd que lorsque la fenêtre se réduit, les cartes
+								sautent à la ligne suivante.
+								<br />
+								- Ajouter un bouton dans les cartes permettant de supprimer
+								celle-ci.
+								<br />
+								- Ajouter un bouton toggle like/dislike.
+								<br />- Ajouter un filtre par catégorie (de type multiselect) en
+								supposant qu'on ne les connaisse pas à l'avance (il faut donc
+								les récupérer dynamiquement depuis les films). Si tous les films
+								d'une catégorie sont supprimés, celle-ci ne doit plus appraître.
+								<br /> - Ajouter un système de pagination avec les
+								fonctionnalités suivantes:
+								<br /> 1) Boutons précédent/suivant <br />
+								2) Choix du nombre d'élements affichés par page (4, 8 ou 12).
+								<br /> - Prennez des initiatives, il y a des points bonus si :{" "}
+								<br />
+								1) C'est jolie.
+								<br />
+								2) Vous utilisez correnct Redux (Dans le projet j'utilise
+								useReducer) .<br />
+								3) Il y a une attention aux détails.
 							</small>
 						</p>
 					)}
@@ -77,4 +95,4 @@ const GradientsProject = () => {
 	)
 }
 
-export default GradientsProject
+export default MovieProject

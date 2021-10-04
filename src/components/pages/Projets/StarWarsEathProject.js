@@ -31,7 +31,7 @@ const StarWarsEathProject = () => {
 				</div>
 				<a
 					href="https://planets-starwars.netlify.app/"
-					alt="image projet google font"
+					alt="image projet star wars"
 					rel="noopener noreferrer"
 					target="_blank"
 				>
