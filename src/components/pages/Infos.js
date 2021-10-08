@@ -11,7 +11,7 @@ const Infos = () => {
 		>
 			<div data-aos="flip-right">
 				<h2
-					className="pb-5 text-center text-xl border-b-2 text-lightblue md:text-3xl md:w-96 md:m-auto"
+					className="pb-5 text-center text-xl border-b-2 text-lightblue md:text-3xl md:w-96 md:m-auto xl:ml-16"
 					style={{
 						fontFamily: "Heebo",
 						borderBottomColor: "#8892b0",
