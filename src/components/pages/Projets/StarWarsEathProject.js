@@ -51,7 +51,8 @@ const StarWarsEathProject = () => {
 					{detailsStarWars && (
 						<p className="pt-4">
 							<small>
-								Petit projet réalisé en formation. Les objectifs étaient de:
+								Petit projet réalisé en formation.
+								<br /> Les objectifs étaient de:
 								<br />
 								- Récupérer les données via l'API star wars et les afficher par
 								10.

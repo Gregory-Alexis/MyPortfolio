@@ -53,7 +53,8 @@ const GoogleFontProject = () => {
 					{detailsGoogleFront && (
 						<p className="pt-4">
 							<small>
-								Projet réalisé en formation. Les objectifs étaient de:
+								Projet réalisé en formation. <br />
+								Les objectifs étaient de:
 								<br />- Récupérer les données via l'API google font.
 								<br />- Les Afficher dans des cartes avec le nom de la police,
 								de son variant, de sa catégorie, l'aperçu et le lien direct vers

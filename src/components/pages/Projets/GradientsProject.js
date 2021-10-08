@@ -52,7 +52,8 @@ const GradientsProject = () => {
 					{detailsGradient && (
 						<p className="pt-4">
 							<small>
-								Projet réalisé en formation. Les objectifs étaient de:
+								Projet réalisé en formation.
+								<br /> Les objectifs étaient de:
 								<br />- Créer un Header et y ajouter 3 bouttons qui permettaient
 								de choisir la couleur du gradient suivant, précédent ou d'un
 								gradient aléatoire.
@@ -60,11 +61,10 @@ const GradientsProject = () => {
 								en fonction de leurs teintes (bleu, rouge, orange, etc...) ou de
 								tous les afficher.
 								<br />- D'ajouter un autre filtre dans les cartes qui permettait
-								de d'afficher les dégradés en fonctions de leurs tags de
-								couleur.
+								d'afficher les dégradés en fonctions de leurs tags de couleur.
 								<br />
-								- Mettre dans les cartes un boutton "Plein écran" qui
-								redirigerai vers une autre page.
+								- Mettre dans les cartes un boutton "Plein écran" qui redirige
+								vers une autre page.
 								<br />- Sur cette nouvelle page, il fallait créer 3 bouttons
 								(home, suivant, précédent) et afficher les dégradés de couleur
 								en plein écran avec leurs noms et leurs codes respectif.
