@@ -1,3 +1,4 @@
+import BreakingBadProject from "./Projets/BreakingBadProject"
 import GoogleFontProject from "./Projets/GoogleFontProject"
 import GradientsProject from "./Projets/GradientsProject"
 import MovieProject from "./Projets/MovieProject"
@@ -28,6 +29,7 @@ const Projets = () => {
 				<StarWarsEathProject />
 				<GradientsProject />
 				<MovieProject />
+				<BreakingBadProject />
 			</section>
 		</article>
 	)
