@@ -2,7 +2,7 @@ import { useState } from "react"
 import BBP from "../../../assets/BBP.png"
 
 const BreakingBadProject = () => {
-	const [detailsBreakingBad, setDetailsBreakingBad] = useState("false")
+	const [detailsBreakingBad, setDetailsBreakingBad] = useState(false)
 	const handleDetailsBreakingBad = () => {
 		setDetailsBreakingBad(!detailsBreakingBad)
 	}
