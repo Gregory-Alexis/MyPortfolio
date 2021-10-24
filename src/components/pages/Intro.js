@@ -41,7 +41,7 @@ const Intro = () => {
 						Passioné par le développement Front-End
 					</p>
 				</div>
-				<div className="flex mb-5">
+				<div className="flex">
 					<nav>
 						<a
 							href="https://www.instagram.com/greg_9712/?hl=fr"
@@ -89,7 +89,7 @@ const Intro = () => {
 						</a>
 					</nav>
 				</div>
-				<div>
+				<div className="flex">
 					<button
 						type="button"
 						// "contact-button" style 'effet de zoom' du boutton 'Contactez Moi'  sur la page d'acceuil lors d'un hover (voir fichier index.css)
@@ -107,6 +107,25 @@ const Intro = () => {
 							target="_blank"
 						>
 							Contactez Moi
+						</a>
+					</button>
+					<button
+						type="button"
+						// "contact-button" style 'effet de zoom' du boutton 'Contactez Moi'  sur la page d'acceuil lors d'un hover (voir fichier index.css)
+						className="contact-button ml-5"
+						style={{ borderColor: "#00e1ff" }}
+					>
+						<a
+							href="https://gregalexis-cv.netlify.app/"
+							className="no-underline lg:px-5 lg:py-1"
+							style={{
+								color: "#00e1ff",
+								fontFamily: "Inter",
+							}}
+							rel="noopener noreferrer"
+							target="_blank"
+						>
+							Mon CV
 						</a>
 					</button>
 				</div>
