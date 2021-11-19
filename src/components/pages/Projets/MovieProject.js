@@ -4,7 +4,7 @@ import Movie from "../../../assets/ParticeepProject.png"
 const MovieProject = () => {
 	const [detailsMovieProject, setDetailsSMovieProject] = useState(false)
 
-	const handleDetailsStarWars = () => {
+	const handleDetailsMovieProject = () => {
 		setDetailsSMovieProject(!detailsMovieProject)
 	}
 	return (
@@ -44,7 +44,7 @@ const MovieProject = () => {
 				<div className="pt-2 ">
 					<button
 						className="border rounded-md p-1 font-bold hover:text-lightblue"
-						onClick={handleDetailsStarWars}
+						onClick={handleDetailsMovieProject}
 					>
 						Détails
 					</button>

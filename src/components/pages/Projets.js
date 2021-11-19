@@ -2,7 +2,6 @@ import BreakingBadProject from "./Projets/BreakingBadProject"
 import GoogleFontProject from "./Projets/GoogleFontProject"
 import GradientsProject from "./Projets/GradientsProject"
 import MovieProject from "./Projets/MovieProject"
-import StarWarsEathProject from "./Projets/StarWarsEathProject"
 
 const Projets = () => {
 	return (
@@ -26,7 +25,6 @@ const Projets = () => {
 			{/* "project-section-style" mise en forme global de la section "projet" */}
 			<section className="project-section-style">
 				<GoogleFontProject />
-				<StarWarsEathProject />
 				<GradientsProject />
 				<MovieProject />
 				<BreakingBadProject />

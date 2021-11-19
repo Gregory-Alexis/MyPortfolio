@@ -1,4 +1,3 @@
-import Instalogo from "../../assets/insta.svg"
 import Linkelogo from "../../assets/linkedin.svg"
 import Gitlogo from "../../assets/github.svg"
 
@@ -42,21 +41,6 @@ const Intro = () => {
 					</p>
 				</div>
 				<div className="flex">
-					<nav>
-						<a
-							href="https://www.instagram.com/greg_9712/?hl=fr"
-							rel="noopener noreferrer"
-							target="_blank"
-						>
-							<img
-								src={Instalogo}
-								alt="instagram"
-								className="intro-icons-style"
-								width="40"
-								height="40"
-							/>
-						</a>
-					</nav>
 					<nav>
 						<a
 							href="https://www.linkedin.com/in/gr%C3%A9gory-alexis-57a21a202/"
