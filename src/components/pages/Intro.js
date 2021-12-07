@@ -9,7 +9,7 @@ const Intro = () => {
 			 */}
 			<div data-aos="zoom-out">
 				<h1
-					className="mb-2 ml-1 md:text-sm lg:text-base xl:text-lg"
+					className="mb-2 ml-1 md:text-sm lg:text-base xl:text-2xl"
 					style={{
 						fontFamily: "Inter",
 						color: "#00e1ff",
@@ -18,19 +18,19 @@ const Intro = () => {
 					Bonjour, je m'appelle
 				</h1>
 				<div
-					className="text-3xl font-bold mb-3 md:text-5xl lg:text-6xl xl:text-7xl"
+					className="text-3xl font-bold mb-3 md:text-5xl lg:text-6xl xl:text-8xl"
 					style={{ fontFamily: "Poppins", color: "#ccd6f6" }}
 				>
 					<p>Grégory Alexis.</p>
 				</div>
 				<div
-					className="text-3xl font-bold mb-3 md:text-5xl lg:text-6xl xl:text-7xl"
+					className="text-3xl font-bold mb-3 md:text-5xl lg:text-6xl xl:text-8xl"
 					style={{ fontFamily: "Poppins", color: "#ccd6f6" }}
 				>
 					<p>Développeur junior React.</p>
 				</div>
 				<div
-					className=" font-bold mb-5 text-lg md:text-xl lg:text-2xl xl:text-3xl"
+					className=" font-bold mb-5 text-lg md:text-xl lg:text-2xl xl:text-4xl"
 					style={{
 						fontFamily: "Fira code",
 						color: "#ccd6f6",
@@ -51,7 +51,7 @@ const Intro = () => {
 								src={Linkelogo}
 								alt="linkedin"
 								// "intro-icons-style" style des icones sur la page d'acceuil (voir fichier index.css)
-								className="intro-icons-style ml-4"
+								className="intro-icons-style"
 								width="40"
 								height="40"
 							/>

@@ -27,7 +27,7 @@
 }
 
 .info-text-style {
-	@apply pt-5  text-sm text-grey mb-8 md:pt-12 md:text-lg lg:text-xl xl:max-w-xl;
+	@apply pt-5  text-sm text-grey mb-8 md:pt-12 md:text-lg lg:text-2xl xl:max-w-xl;
 }
 
 .cards-style {
